@@ -1,0 +1,13 @@
+package com.kpu.shared.utils
+
+import app.cash.sqldelight.db.SqlDriver
+import app.cash.sqldelight.driver.jdbc.sqlite.JdbcSqliteDriver
+import com.kpu.shared.data.cache.sqldelight.AppDatabase
+
+actual class DatabaseDriverFactory {
+    actual fun createDriver(): SqlDriver {
+        return JdbcSqliteDriver(JdbcSqliteDriver.IN_MEMORY).also {
+            AppDatabase.Schema.create(it)
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107303594937",
+    "project_id": "nelflix-411314",
+    "storage_bucket": "nelflix-411314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107303594937:android:0220df24880eae00cbe468",
+        "android_client_info": {
+          "package_name": "com.kpu.nelflix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGXoQCnf2wd8lZjey16miNnzylMapGJk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
